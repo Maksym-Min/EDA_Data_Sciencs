@@ -1,0 +1,523 @@
+  /* Блок для выводов/примеров/видео/интро юнита */
+	.grey-container {
+    	background-color: #f5f5f5;
+    	padding: 20px;
+    	margin-top: 20px;
+    	margin-bottom: 20px;
+    	border: 1px solid #404040;
+	}
+
+  /* Блок для важного */
+   .mint-container {
+    	background-color: #88cdb2;
+    	padding: 20px;
+    	margin-top: 20px;
+    	margin-bottom: 20px;
+    	border: 1px solid #404040;
+	}
+    
+  /* Блок для важного */
+	.teal-green-container {
+    	background-color: #2e765e;
+    	padding: 20px;
+    	margin-top: 20px;
+    	margin-bottom: 20px;
+    	border: 1px solid #404040;
+	}
+
+	/* Блок для примечаний или преимуществ */
+	.green-container {
+    	background-color: #e0ffd1;
+    	padding: 20px;
+    	margin-top: 20px;
+    	margin-bottom: 20px;
+    	border: 1px solid #404040;
+	}
+
+	/* Блок для недостатков/ограничений */
+	.red-container {
+    	background-color: #ffdcd4;
+    	padding: 20px;
+    	margin-top: 20px;
+    	margin-bottom: 20px;
+    	border: 1px solid #404040;
+	}
+    
+      /* Серая карточка с тенью */
+	.boxes {
+    	background-color: #f5f5f5;
+    	float: center;
+    	margin-right: 15px;
+    	margin-bottom: 20px;
+    	border-radius: 10px;
+    	padding: 20px;
+    	height: fit-content;
+    	line-height: 150%;
+    	box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+    	vertical-align: top;
+    	}
+
+	/* кружок*/
+	.circle {
+    	display: flex;
+    	float: left;
+    	align-items: center;
+    	justify-content: center;
+    	font-size: 16px;
+    	color: #2e765e;
+    	width: 30px;
+    	height: 30px;
+    	border: solid 2px #2e765e;
+    	border-radius: 50%;
+    	margin: 0 20px 20px;
+	}
+
+	/* ссылки */
+	.link {
+    	display: inline-block;
+    	color: #2e765e;
+    	text-decoration: none;
+    	border-bottom: 1px solid #2e765e;
+	}
+
+	.link:hover {
+    	color: #10564f;
+    	text-decoration: none;
+    	border-bottom: 1px solid #10564f;
+	}
+
+	.link:active {
+    	color: #10564f;
+    	text-decoration: none;
+    	border-bottom: none;
+	}
+
+	/* Блок для дополнительных источников/библиотеки */
+	.blue-container-dotted {
+    	padding: 20px;
+    	margin-bottom: 20px;
+    	width: 75%;
+    	border: 3px dotted #077AB2;
+    	margin: 0 auto;
+	}
+
+	/* Блок для важного */
+	.green-frame {
+    	padding: 20px;
+    	background-color: #ffffff;
+    	margin: 20px;
+    	border: 2px solid #88cdb2;
+    	margin: 0 auto;
+	}
+
+	/* Блок для для интро и аутро юнита, обрамления картинки*/
+	.black-frame {
+    	padding: 20px;
+    	background-color: #ffffff;
+    	margin: 20px;
+    	border: 2px solid #062425;
+    	margin: 0 auto;
+	}
+
+	/* Вертикальная черта слева*/
+	.green-left {
+    	border-left: 5px solid #2e765e;
+    	padding-left: 10px;
+	}
+
+	/* Подсветка для кода*/
+	.code-blue {
+    	background-color: #f0f8ff;
+    	font-family: Courier New, courier;
+	}
+
+	/* Добавить отступ*/
+	.div-margin {
+    	margin-top: 2em;
+    	margin-bottom: 1.5em;
+	}
+
+	/* Чёрная разделительная линия*/
+	.black-line {
+    	height: 2px;
+    	border-bottom: 2px;
+    	background-color: #062425;
+    	width: 100%;
+	}
+
+	/* Зелёная разделительная линия*/
+	.line {
+    	height: 2px;
+    	border-bottom: 2px;
+    	background-color: #2e765e;
+    	width: 100%;
+	}
+
+	/* Блок для определения*/
+	.info {
+    	background-color: #e0fff3;
+    	border-left: 5px solid #88cdb2;
+    	padding: 0.8em;
+	}
+
+	/* Блок с серой подложкой для примечания*/
+	.note {
+    	background-color: #f5f5f5;
+    	border-left: 5px solid #757575;
+    	padding: 0.5em;
+	}
+    
+      /* Блок для заданий на самопроверку/дисклеймеров */
+	.grey-frame {
+    	background: #f8f8f8;
+    	overflow: auto;
+    	width: 75%;
+    	border: solid #d1d9d7;
+    	border-width: .1em;
+    	padding: 1em;
+    	margin: 0 auto;
+	}
+
+	/* Зелёное выделение текста Inline*/
+	.green-bold {
+    	font-weight: bold;
+    	color: #2e675e;
+	}
+
+	/* Чёрное выделение текста Inline*/
+	.black-bold {
+    	font-weight: bold;
+    	color: #062425;
+	}
+
+	/* Серый заголок второго уровня */
+	.h2-grey {
+    	font-weight: bold;
+    	font-family: 'courier new', courier;
+    	font-size: 1.2em;
+    	text-transform: uppercase;
+    	color: #062425;
+	}
+
+	/* Зелёный заголовок первого уровня */
+	.h1-green {
+    	font-weight: bold;
+    	font-family: 'courier new', courier;
+    	display: block;
+	 	text-align: center;
+    	font-size: 1.4em;
+    	text-transform: uppercase;
+    	color: #2e765e;
+	}
+
+	/* Для наследования размера шрифтов таблиц*/
+	td {
+    	font-size: inherit !important;
+	}
+
+	/* Изображение с тенью и закруглёнными уголками*/
+	.img {
+    	-webkit-filter: drop-shadow(5px 5px 5px #222);
+    	filter: drop-shadow(5px 5px 5px #666666);
+    	border-radius: 10px;
+	}
+
+	/* вертикальная линия*/
+	.vert-line-blue-green {
+    	margin: 0 20px;
+    	width: 3px;
+    	height: inherit;
+    	background-color: #2e765e;
+	}
+    
+      /* Кнопка с раскрывающимся элементом */
+	.tooltip-button {
+    	background-color: #88cdb2;
+    	border: 0.05em solid #88a09a;
+    	color: #000000;
+    	font-weight: bold;
+    	padding: 0.2em;
+    	text-align: center;
+    	display: inline-block;
+    	transition-duration: 0.4s;
+    	cursor: pointer;
+    	outline: none;
+	}
+
+	.tooltip-button:hover {
+    	background-color: #d6d5d6;
+	}
+
+	/* Ниже идут стили для кнопок, для них копировать div отдельно*/
+	.button-container {
+    	margin: 25px;
+    	text-transform: uppercase !important;
+    	font-size: 1em;
+    	font-weight: bold;
+	}
+
+      /* Кнопка-спойлер */
+	.button-spoiler {
+    	background-color: #ffffff;
+    	border: 1px solid #2e765e;
+    	color: #2e765e;
+    	padding: 0.8em;
+    	text-align: center;
+    	display: inline-block;
+    	transition-duration: 0.4s;
+    	cursor: pointer;
+	}
+
+	.button-spoiler-round {
+    	background-color: #ffffff;
+    	width: 25px;
+    	height: 25px;
+    	border: 0.1em solid #2e765e;
+    	border-radius: 50%;
+    	color: #2e765e;
+    	padding: 0.2em;
+    	margin-bottom: 20px;
+    	text-align: center;
+    	display: inline-block;
+    	transition-duration: 0.4s;
+    	cursor: pointer;
+	}
+
+	.button-spoiler:hover {
+    	background-color: #2e765e;
+    	color: #ffffff !important;
+	}
+
+	.button1:hover {
+    	background-color: #2e765e;
+    	color: #ffffff !important;
+	}
+
+	a.button1 {
+    	background-color: transparent;
+    	border: 1px solid #2e765e;
+    	color: #2e765e;
+    	padding: 0.8em;
+    	text-align: center;
+    	display: inline-block;
+    	transition-duration: 0.4s;
+    	cursor: pointer;
+	}
+
+	.button2 {
+    	background-color: #ffffff;
+    	border: 1px solid #2e765e;
+    	color: #2e765e;
+    	padding: 0.8em;
+    	text-align: center;
+    	display: inline-block;
+    	transition-duration: 0.4s;
+    	cursor: pointer;
+	}
+
+	.button1:hover {
+    	background-color: #2e765e;
+    	color: #ffffff !important;
+	}
+
+	.button1 {
+    	background-color: transparent;
+    	border: 1px solid #2e765e;
+    	color: #2e765e;
+    	padding: 0.8em;
+    	text-align: center;
+    	display: inline-block;
+    	transition-duration: 0.4s;
+    	cursor: pointer;
+	}
+
+	.hidden {
+    	display: none;
+	}
+
+	.w-100 {
+    	max-width: 100%;
+    	background-color: #f5f5f5;
+    	padding: 20px;
+    	margin: 20px;
+    	font-size: 0.8em;
+    	border: 1px solid #696969;
+    	border-radius: 0px;
+	}
+
+	.mb-10 {
+    	margin-bottom: 10px;
+	}
+
+      /* Кнопка со всплывающим элементом */
+	.text {
+    	display: inline-block;
+    	/* Строчно-блочный элемент */
+    	position: relative;
+    	/* Относительное позиционирование */
+	}
+
+	.text:hover::after {
+    	content: attr(data-title);
+    	/* Выводим текст */
+    	position: absolute;
+    	/* Абсолютное позиционирование */
+    	left: 40px;
+    	right: 0;
+    	top: 10px;
+    	/* Положение подсказки */
+    	z-index: 1;
+    	/* Отображаем подсказку поверх других элементов */
+    	background: rgba(235, 255, 240, 0.9);
+    	/* Полупрозрачный цвет фона */
+    	color: #000;
+    	/* Цвет текста */
+    	width: 250px;
+    	text-align: left;
+    	/* Выравнивание текста по центру */
+    	font-family: Arial, sans-serif;
+    	/* Гарнитура шрифта */
+    	font-size: 13px;
+    	/* Размер текста подсказки */
+    	padding: 5px 10px;
+    	/* Поля */
+    	border: 1px solid #ebfff0;
+    	/* Параметры рамки */
+	}
+
+	.accordion {
+    	background-color: #f5f5f5;
+    	color: #444;
+    	cursor: pointer;
+    	padding: 18px;
+   	margin-bottom: 10px;
+   	 
+    	border: 0.2px solid #696969;
+    	text-align: left;
+    	outline: none;
+    	transition: 0.4s;
+  	}
+ 	 
+  	.active, .accordion:hover {
+    	background-color: #ccc;
+  	}
+ 	 
+  	.panel {
+    	padding: 0 18px;
+    	display: none;
+    	background-color: white;
+    	overflow: hidden;
+  	}
+
+ 	/* картинка на странице */
+.minimized {
+	cursor: pointer;
+	border: 1px solid #FFF;
+  }
+  .minimized:hover {
+	border: 1px solid #2e675e;
+  }
+  /* увеличенная картинка */
+  #magnify {
+	display: none;
+	/* position: absolute;*/
+	position: fixed;
+	max-width: 100%;
+	height: auto;
+	z-index: 9999;
+  }
+  #magnify img {
+	width: 100%;
+  }
+  /* затемняющий фон */
+  #overlay {
+	display: none;
+	background: #000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0.5;
+	z-index: 9990;
+  }
+  /* кнопка закрытия */
+  #close-popup {
+	width: 20px;
+	height: 20px;
+	background-color: #fff;
+	border: 2px solid #fff;
+	border-radius: 15px;
+	cursor: pointer;
+	position: absolute;
+	top: 15px;
+	right: 15px;
+   
+  }
+  #close-popup i {
+	width: 25px;
+	height: 25px;
+ 	background: url(https://lms.skillfactory.ru/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block@cross_icon.png) no-repeat center center;
+	background-size: 25px 25px;
+   border-radius: 15px;
+	display: block;
+  }
+
+  /* Styles for TABS */
+.tab {
+ overflow: hidden;
+ border-bottom: 1px solid #10564f;
+ }
+
+.tablinks {
+  float: left;
+  cursor: pointer;
+  display: inline-block;
+  transition: 0.2s;
+     background-color: #ffffff;
+     background-image: none !important;
+     font-size: 16px;
+  font-weight: bold;
+     text-transform: uppercase;
+     color: #88cdb2;
+  line-height: 20px;
+  padding: 15px 20px;
+  position: relative;
+ z-index: 1;
+ }
+
+.tablinks:hover {
+ color: #10564f;
+	}
+
+.tablinks.active {
+    color: #10564f;
+ position: relative;
+ border-bottom: 3px solid #10564f;
+ }
+
+.tabcontent {
+ overflow: hidden;
+ position: relative;
+ z-index: 0;
+ width: auto;
+ padding: 30px 20px;
+ display: none;
+ margin-top: 0px;
+ border: 0px solid #d1d9d7;
+ background-color: #ffffff;
+ animation: fadeEffect 1s;
+}
+
+.activeTab {
+ position: relative;
+ display: block;
+ }
+ 
+  /* Go from zero to full opacity */
+  @keyframes fadeEffect {
+	from {opacity: 0;}
+	to {opacity: 1;}
+  }
+
+.tb_button {padding:1px;cursor:pointer;border-right: 1px solid #8b8b8b;border-left: 1px solid #FFF;border-bottom: 1px solid #fff;}.tb_button.hover {border:2px outset #def; background-color: #f8f8f8 !important;}.ws_toolbar {z-index:100000} .ws_toolbar .ws_tb_btn {cursor:pointer;border:1px solid #555;padding:3px}   .tb_highlight{background-color:yellow} .tb_hide {visibility:hidden} .ws_toolbar img {padding:2px;margin:0px}
